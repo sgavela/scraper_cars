@@ -7,12 +7,12 @@ import scrapy
 
 
 class CarScraperItem(scrapy.Item):
-    marca_y_modelo = scrapy.Field()
-    precio = scrapy.Field()
-    provincia = scrapy.Field()
-    combustible = scrapy.Field()
-    cambio = scrapy.Field()
-    matriculación = scrapy.Field()
-    kilometros = scrapy.Field()
-    potencia = scrapy.Field()
+    brand_and_model = scrapy.Field()
+    price = scrapy.Field()
+    province = scrapy.Field()
+    fuel = scrapy.Field()
+    gear = scrapy.Field()
+    matriculation = scrapy.Field()
+    kilometres = scrapy.Field()
+    power = scrapy.Field()
     pass
